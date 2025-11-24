@@ -1,1 +1,1 @@
-`index.html` is the frontend showcase of how `delib.js` works. Command calls setuped for local server `127.0.0.1:80`, which you can run from the [./server/](https://github.com/de-things/delib-web-sdk/tree/main/tests/server) directory.
+`index.html` is the frontend showcase of how `delib.js` works. Example command calls configured for the local `127.0.0.1:80` server, which you can run from the **[./server/](./server)** directory.
