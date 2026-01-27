@@ -14,7 +14,7 @@ device.call("example").then(res => {
     console.log(res); // device response
 });
 
-// Why WLAN? because device SECRET has been DEFINED in the constructor,
+// Why wlan? because device SECRET has been DEFINED in the constructor,
 // so this example call sends a POST request to the "http://device_ip:80/example"
 // with a SECRET in the request body.
 ```
@@ -27,7 +27,7 @@ device.call("example").then(res => {
     console.log(res); // device response
 });
 
-// Why ETHERENET? because device SECRET has NOT been DEFINED in the constructor,
+// Why ethernet? because device SECRET has NOT been DEFINED in the constructor,
 // so this example call sends a POST request to the "http://device_ip:80/"
 // with a body content equal to: "!example".
 ```
